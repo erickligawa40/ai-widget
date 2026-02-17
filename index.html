@@ -1,11 +1,31 @@
 <!doctype html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI Assistant Widget</title>
-  </head>
-  <body>
-    <h1>AI Assistant Widget</h1>
-    <script src="widget.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Assistant Widget</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="widget">
+    <div class="header">AI Assistant Widget</div>
+
+    <div id="messages" class="messages">
+      <div class="message bot">Hi 👋 Ask me about this website.</div>
+    </div>
+
+    <form id="chat-form" class="input-bar">
+      <input
+        id="user-input"
+        type="text"
+        placeholder="Type your question..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
