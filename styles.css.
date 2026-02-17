@@ -81,3 +81,4 @@ html, body {
 .input-bar button:hover {
   opacity: 0.9;
 }
+
