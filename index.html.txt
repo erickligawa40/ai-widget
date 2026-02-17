@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Assistant Widget</title>
+  </head>
+  <body>
+    <h1>AI Assistant Widget</h1>
+    <script src="widget.js"></script>
+  </body>
+</html>
