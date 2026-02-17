@@ -19,10 +19,10 @@ form.addEventListener('submit', async (e) => {
   addMessage(userText, 'user');
   input.value = '';
 
-  // Placeholder response – replace this with your real API call later
+  // Placeholder response â€“ replace this with your real API call later
   setTimeout(() => {
     addMessage(
-      "I don’t have enough information from this website to answer that accurately.",
+      "I donâ€™t have enough information from this website to answer that accurately.",
       'bot'
     );
   }, 600);
